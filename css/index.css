@@ -191,7 +191,9 @@ section > .nav > a {
 
 }
 
-
+.nav-tablet {
+    display: none;
+}
 
 
 
@@ -474,4 +476,829 @@ footer > p {
 
 	width: 46%;
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TABLET RESPONSIVE DESIGN*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+
+    .nav-bar {
+    
+        display: flex;
+        
+        flex-direction: column;
+
+        flex-wrap: wrap;
+    
+        align-content: center;
+        
+        justify-content: flex-start;
+    
+    }
+    
+    section > .nav {
+        display: none;
+    }
+    
+    .nav-tablet {
+    
+        font-color: #aeaeae;
+    
+        display: flex;
+    
+        align-items: center;
+
+        margin-top: 40px;
+
+        justify-content: space-around;
+
+        margin-right: 15px;
+    
+    }
+    
+    
+    .logo-align {
+
+        width: 100%;
+    
+        display: flex;
+    
+        align-content: center;
+        
+        justify-content: center;
+
+        padding: 0px;
+
+        margin-left: 20px;
+    }
+    
+    
+    /*HERO CSS*/
+    
+    .hero-content {
+    
+        display: flex;
+    
+        flex-wrap: wrap;
+
+        margin-top: 15px;
+
+        margin-bottom: 30px;
+
+        justify-content: center;
+    
+    }
+    
+    
+    
+    .Hero-Heading {
+    
+        padding-top: 66px;
+    
+        padding-left: 18px;
+
+        margin-left: 0px;
+
+        width: 100%;
+    
+    }
+    
+    
+    
+    h1 {
+    
+        font-size: 72px;
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        align-content: center;
+        
+        line-height: .78;
+    
+    }
+    
+    
+    
+    .Hero-Heading > button {
+    
+        background: white;
+    
+        margin-top: 4px;
+        
+        padding: 6px 44px 6px 42px;
+        
+        border: solid 1px black;
+    
+        font-size: 16px;
+    
+    }
+    
+    
+    
+    .Hero-Image {
+    
+        display: none;
+    
+    }
+    
+    
+    
+    section > hr {
+    
+        margin-top: 80px;
+    
+    }
+    
+    
+    
+    /*FEATURES AND ABOUT SECTION CSS*/
+    
+    .features-about {
+        
+        width = 100%;
+
+        display: flex;
+
+        flex-wrap: wrap;
+        
+        margin-top: 33px;
+
+        margin-bottom: 30px;
+    
+    }
+    
+    .features {
+    
+        width: 48%;
+    
+        line-height: 1.15;
+    
+        padding-right: 20px;
+
+        margin-left: 30px;
+    
+    }
+    
+    
+    
+    .about {
+    
+        width: 47%;
+    
+        margin-left: 3px;
+    
+        line-height: 1.15;
+
+        margin-right: 0px;
+
+        padding-right: 14px;
+    
+    }
+    
+    
+    
+    /*IMAGE BANNER CSS*/
+    
+    .middle-img-banner {
+    
+        display: flex;
+    
+    }
+    
+    
+    
+    section > .middle-img {
+    
+        width: 100%;
+    
+        margin-top: 0px;
+
+        margin-left: 20px;
+
+        height: 160px;
+
+        width: 760px;
+    
+    }
+    
+    
+    
+    /* SERVICES PRODUCTS VISION CSS */
+    
+    
+    
+    .svp {
+    
+        display: flex;
+    
+        flex-wrap: wrap;
+    
+        margin-top: 28px;
+    
+        margin-left: 30px; 
+
+        padding-bottom: 20px;
+    
+    }
+    
+    
+    
+    .services {
+    
+        width: 33.5%;
+    
+        line-height: 1.15;
+    
+        padding-right: 40px;
+        
+        margin-right: 0px;
+    
+    }
+    
+    
+    
+    .products {
+    
+        width: 33.5%;
+    
+        line-height: 1.15;
+    
+        padding-right: 40px;
+    
+    }
+    
+    
+    
+    .vision {
+    
+        width: 33%;
+    
+        line-height: 1.15;
+    
+        padding-right: 32px;
+    
+        margin-left: 0px;
+    }
+    
+    
+    
+    /*CONTACT SECTION CSS */
+    
+    
+    
+    .contact {
+    
+        width: 100%;
+
+        margin-left: 30px;
+        
+        margin-top: 30px;
+    
+    }
+    
+    
+    
+    
+    
+    /* LINE DIVIDER CSS */
+    
+    hr {
+    
+        margin-top: 37px;
+        
+        display: flex;
+    
+        width: 97%;
+
+        margin-left: 20px;
+    
+    }
+    
+    
+    
+    /*FOOTER CSS*/
+    
+    footer > p {
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        margin-top: 40px;
+    
+        margin-bottom: 80px;
+        
+        padding-left: 0px;
+    
+        width: 100%;
+
+        margin-left: 8px;
+    
+    }
+    
+    
+    
+    .bottom-hr {
+    
+        margin-top: 16px;
+    
+        margin-bottom: 33px;
+    
+        display: flex;
+    
+        width: 97%;
+
+        margin-left: 20px;
+    
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MOBILE DEVICE RESPONSIVE DESIGN*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+
+    .nav-bar {
+    
+        display: flex;
+        
+        flex-direction: column;
+
+        flex-wrap: wrap;
+    
+        align-content: center;
+        
+        justify-content: flex-start;
+    
+    }
+    
+    section > .nav {
+        display: none;
+    }
+    
+    .nav-tablet {
+    
+        font-color: #aeaeae;
+    
+        display: flex;
+    
+        align-items: center;
+
+        margin-top: 40px;
+
+        justify-content: space-around;
+
+        margin-right: 15px;
+    
+    }
+    
+    
+    .logo-align {
+
+        width: 100%;
+    
+        display: flex;
+    
+        align-content: center;
+        
+        justify-content: center;
+
+        padding: 0px;
+
+        margin-left: 20px;
+    }
+    
+    
+    /*HERO CSS*/
+    
+    .hero-content {
+    
+        display: flex;
+    
+        flex-wrap: wrap;
+
+        margin-top: 15px;
+
+        margin-bottom: 30px;
+
+        justify-content: center;
+    
+    }
+    
+    
+    
+    .Hero-Heading {
+    
+        padding-top: 66px;
+    
+        padding-left: 18px;
+
+        margin-left: 0px;
+
+        width: 100%;
+    
+    }
+    
+    
+    
+    h1 {
+    
+        font-size: 72px;
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        align-content: center;
+        
+        line-height: .78;
+    
+    }
+    
+    
+    
+    .Hero-Heading > button {
+    
+        background: white;
+    
+        margin-top: 4px;
+        
+        padding: 6px 44px 6px 42px;
+        
+        border: solid 1px black;
+    
+        font-size: 16px;
+    
+    }
+    
+    
+    
+    .Hero-Image {
+    
+        display: none;
+    
+    }
+    
+    
+    
+    section > hr {
+    
+        margin-top: 80px;
+    
+    }
+    
+    
+    
+    /*FEATURES AND ABOUT SECTION CSS*/
+    
+    .features-about {
+        
+        width = 100%;
+
+        display: flex;
+
+        flex-wrap: wrap;
+        
+        margin-top: 33px;
+
+        margin-bottom: 30px;
+    
+    }
+    
+    .features {
+    
+        width: 48%;
+    
+        line-height: 1.15;
+    
+        padding-right: 20px;
+
+        margin-left: 30px;
+    
+    }
+    
+    
+    
+    .about {
+    
+        width: 47%;
+    
+        margin-left: 3px;
+    
+        line-height: 1.15;
+
+        margin-right: 0px;
+
+        padding-right: 14px;
+    
+    }
+    
+    
+    
+    /*IMAGE BANNER CSS*/
+    
+    .middle-img-banner {
+    
+        display: flex;
+    
+    }
+    
+    
+    
+    section > .middle-img {
+    
+        width: 100%;
+    
+        margin-top: 0px;
+
+        margin-left: 20px;
+
+        height: 160px;
+
+        width: 760px;
+    
+    }
+    
+    
+    
+    /* SERVICES PRODUCTS VISION CSS */
+    
+    
+    
+    .svp {
+    
+        display: flex;
+    
+        flex-wrap: wrap;
+    
+        margin-top: 28px;
+    
+        margin-left: 30px; 
+
+        padding-bottom: 20px;
+    
+    }
+    
+    
+    
+    .services {
+    
+        width: 33.5%;
+    
+        line-height: 1.15;
+    
+        padding-right: 40px;
+        
+        margin-right: 0px;
+    
+    }
+    
+    
+    
+    .products {
+    
+        width: 33.5%;
+    
+        line-height: 1.15;
+    
+        padding-right: 40px;
+    
+    }
+    
+    
+    
+    .vision {
+    
+        width: 33%;
+    
+        line-height: 1.15;
+    
+        padding-right: 32px;
+    
+        margin-left: 0px;
+    }
+    
+    
+    
+    /*CONTACT SECTION CSS */
+    
+    
+    
+    .contact {
+    
+        width: 100%;
+
+        margin-left: 30px;
+        
+        margin-top: 30px;
+    
+    }
+    
+    
+    
+    
+    
+    /* LINE DIVIDER CSS */
+    
+    hr {
+    
+        margin-top: 37px;
+        
+        display: flex;
+    
+        width: 97%;
+
+        margin-left: 20px;
+    
+    }
+    
+    
+    
+    /*FOOTER CSS*/
+    
+    footer > p {
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        margin-top: 40px;
+    
+        margin-bottom: 80px;
+        
+        padding-left: 0px;
+    
+        width: 100%;
+
+        margin-left: 8px;
+    
+    }
+    
+    
+    
+    .bottom-hr {
+    
+        margin-top: 16px;
+    
+        margin-bottom: 33px;
+    
+        display: flex;
+    
+        width: 97%;
+
+        margin-left: 20px;
+    
+    }
+    
 }
