@@ -1,3 +1,1337 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+
+   v2.0 | 20110126
+
+   License: none (public domain)
+
+*/
 
 
+
+html, body, div, span, applet, object, iframe,
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+
+a, abbr, acronym, address, big, cite, code,
+
+del, dfn, em, img, ins, kbd, q, s, samp,
+
+small, strike, strong, sub, sup, tt, var,
+
+b, u, i, center,
+
+dl, dt, dd, ol, ul, li,
+
+fieldset, form, label, legend,
+
+table, caption, tbody, tfoot, thead, tr, th, td,
+
+article, aside, canvas, details, embed, 
+
+figure, figcaption, footer, header, hgroup, 
+
+menu, nav, output, ruby, section, summary,
+
+time, mark, audio, video {
+
+	margin: 0;
+
+	padding: 0;
+
+	border: 0;
+
+	font-size: 100%;
+
+	font: inherit;
+
+	vertical-align: baseline;
+
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+
+footer, header, hgroup, menu, nav, section {
+
+	display: block;
+
+}
+
+body {
+
+	line-height: 1;
+
+}
+
+ol, ul {
+
+	list-style: none;
+
+}
+
+blockquote, q {
+
+	quotes: none;
+
+}
+
+blockquote:before, blockquote:after,
+
+q:before, q:after {
+
+	content: '';
+
+	content: none;
+
+}
+
+table {
+
+	border-collapse: collapse;
+
+	border-spacing: 0;
+
+}
+
+
+
+/* Set every element's box-sizing to border-box */
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+
+html, body {
+
+    height: 100%;
+
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+
+
+h1, h2, h3, h4, h5 {
+
+    font-family: 'Bangers', cursive;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/*NAVIGATION CSS*/
+
+
+
+a {
+
+	text-decoration: inherit;
+
+	color: inherit;
+
+}
+
+
+
+.nav-bar {
+
+	display: flex;
+
+    align-content: center;
+    
+    justify-content: flex-start;
+
+	margin-top: 28px;
+
+}
+
+
+
+section > .nav {
+
+	font-color: #aeaeae;
+
+	display: flex;
+
+	align-items: center;
+
+	margin-left: 70px;
+
+	width: 34%;
+
+}
+
+section > .nav > a {
+
+	margin-right: 61px;
+
+}
+
+.logo-align {
+
+	display: flex;
+
+    align-content: center;
+    
+    padding-left: 51px;
+    
+    width: 12%;
+
+}
+
+.nav-tablet {
+    display: none;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+
+/*HERO CSS*/
+
+.hero-content {
+
+	display: flex;
+
+	flex-wrap: wrap;
+
+	padding-bottom: 40px;
+
+	margin-top: 70px;
+
+}
+
+
+
+.Hero-Heading {
+
+	width: 23%;
+
+	text-align: center;
+
+	margin-left: 75px;
+
+	padding-top: 61px;
+
+	padding-left: 100px;
+
+}
+
+
+
+h1 {
+
+	font-size: 72px;
+
+	display: flex;
+
+	justify-content: center;
+
+    align-content: center;
+    
+    line-height: .78;
+
+}
+
+
+
+.Hero-Heading > button {
+
+	background: white;
+
+    margin-top: 4px;
+    
+    padding: 6px 43px;
+    
+    border: solid 1px black;
+
+    font-size: 16px;
+
+}
+
+
+
+.Hero-Image {
+
+	display: inline-flex;
+
+	width: 23%;
+
+	align-content: center;
+
+    justify-content: flex-end;
+    
+    margin-left: 1px;
+
+}
+
+
+
+section > hr {
+
+	margin-top: 80px;
+
+}
+
+
+
+/*FEATURES AND ABOUT SECTION CSS*/
+
+.features-about {
+
+	display: flex;
+
+    flex-wrap: wrap;
+    
+    margin-top: 33px;
+
+}
+
+.features {
+
+	width: 23%;
+
+	margin-left: 72px;
+
+	line-height: 1.15;
+
+	padding-right: 10px;
+
+}
+
+
+
+.about {
+
+	width: 23%;
+
+	margin-right: 250px;
+
+	margin-left: 1px;
+
+	line-height: 1.15;
+
+}
+
+
+
+/*IMAGE BANNER CSS*/
+
+.middle-img-banner {
+
+    display: flex;
+    
+
+
+}
+
+
+
+section > .middle-img {
+
+	width: 46%;
+
+	margin-left: 75px;
+
+    margin-top: 32px;
+    
+    height: 180px;
+
+    width: 875px;
+
+}
+
+
+
+/* SERVICES PRODUCTS VISION CSS */
+
+
+
+.svp {
+
+	display: flex;
+
+	flex-wrap: wrap;
+
+	margin-left: 72px;
+
+	margin-top: 31px;
+
+	padding-bottom: 20px;
+
+}
+
+
+
+.services {
+
+	width: 16%;
+
+	line-height: 1.15;
+
+    padding-right: 19px;
+    
+    margin-right: 1px;
+
+}
+
+
+
+.products {
+
+	width: 16%;
+
+	line-height: 1.15;
+
+    padding-right: 19px;
+    
+    margin-left: -1px;
+
+}
+
+
+
+.vision {
+
+	width: 16%;
+
+	line-height: 1.15;
+
+    padding-right: 19px;
+}
+
+
+
+/*CONTACT SECTION CSS */
+
+
+
+.contact {
+
+	width: 46%;
+
+	margin-left: 72px;
+
+	margin-top: 30px;
+
+}
+
+
+
+
+
+/* LINE DIVIDER CSS */
+
+hr {
+
+	margin-left: 72px;
+
+    margin-top: 35px;
+    
+	display: flex;
+
+	width: 46.35%;
+
+}
+
+
+
+/*FOOTER CSS*/
+
+footer > p {
+
+	display: flex;
+
+	justify-content: center;
+
+	margin-top: 40px;
+
+	margin-bottom: 80px;
+
+    margin-left: 71px;
+    
+    padding-left: 5px;
+
+	width: 46%;
+
+}
+
+
+
+.bottom-hr {
+
+	margin-left: 73px;
+
+	margin-top: 16px;
+
+	margin-bottom: 33px;
+
+	display: flex;
+
+	width: 46.1%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TABLET RESPONSIVE DESIGN*/
+
+@media (max-width: 800px) {
+
+    .nav-bar {
+    
+        display: flex;
+        
+        flex-direction: column;
+
+        flex-wrap: wrap;
+    
+        align-content: center;
+        
+        justify-content: flex-start;
+    
+    }
+    
+    section > .nav {
+        display: none;
+    }
+    
+    .nav-mobile {
+        display: none;
+    }
+
+    .nav-tablet {
+    
+        font-color: #aeaeae;
+    
+        display: flex;
+    
+        align-items: center;
+
+        margin-top: 40px;
+
+        justify-content: space-around;
+
+        margin-right: 15px;
+    
+    }
+    
+    
+    .logo-align {
+
+        width: 100%;
+    
+        display: flex;
+    
+        align-content: center;
+        
+        justify-content: center;
+
+        padding: 0px;
+
+        margin-left: 20px;
+    }
+    
+    
+    /*HERO CSS*/
+    
+    .hero-content {
+    
+        display: flex;
+    
+        flex-wrap: wrap;
+
+        margin-top: 15px;
+
+        margin-bottom: 30px;
+
+        justify-content: center;
+    
+    }
+    
+    
+    
+    .Hero-Heading {
+    
+        padding-top: 66px;
+    
+        padding-left: 18px;
+
+        margin-left: 0px;
+
+        width: 100%;
+    
+    }
+    
+    
+    
+    h1 {
+    
+        font-size: 72px;
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        align-content: center;
+        
+        line-height: .78;
+    
+    }
+    
+    
+    
+    .Hero-Heading > button {
+    
+        background: white;
+    
+        margin-top: 4px;
+        
+        padding: 6px 44px 6px 42px;
+        
+        border: solid 1px black;
+    
+        font-size: 16px;
+    
+    }
+    
+    
+    
+    .Hero-Image {
+    
+        display: none;
+    
+    }
+    
+    
+    
+    section > hr {
+    
+        margin-top: 80px;
+    
+    }
+    
+    
+    
+    /*FEATURES AND ABOUT SECTION CSS*/
+    
+    .features-about {
+        
+        width = 100%;
+
+        display: flex;
+
+        flex-wrap: wrap;
+        
+        margin-top: 33px;
+
+        margin-bottom: 30px;
+    
+    }
+    
+    .features {
+    
+        width: 48%;
+    
+        line-height: 1.15;
+    
+        padding-right: 20px;
+
+        margin-left: 30px;
+    
+    }
+    
+    
+    
+    .about {
+    
+        width: 47%;
+    
+        margin-left: 3px;
+    
+        line-height: 1.15;
+
+        margin-right: 0px;
+
+        padding-right: 14px;
+    
+    }
+    
+    
+    
+    /*IMAGE BANNER CSS*/
+    
+    .middle-img-banner {
+    
+        display: flex;
+    
+    }
+    
+    
+    
+    section > .middle-img {
+    
+        width: 100%;
+    
+        margin-top: 0px;
+
+        margin-left: 20px;
+
+        height: 160px;
+
+        width: 760px;
+    
+    }
+    
+    
+    
+    /* SERVICES PRODUCTS VISION CSS */
+    
+    
+    
+    .svp {
+    
+        display: flex;
+    
+        flex-wrap: wrap;
+    
+        margin-top: 28px;
+    
+        margin-left: 30px; 
+
+        padding-bottom: 20px;
+    
+    }
+    
+    
+    
+    .services {
+    
+        width: 33.5%;
+    
+        line-height: 1.15;
+    
+        padding-right: 40px;
+        
+        margin-right: 0px;
+    
+    }
+    
+    
+    
+    .products {
+    
+        width: 33.5%;
+    
+        line-height: 1.15;
+    
+        padding-right: 40px;
+
+        margin-right: 1px;
+    
+    }
+    
+    
+    
+    .vision {
+    
+        width: 33%;
+    
+        line-height: 1.15;
+    
+        padding-right: 32px;
+    
+        margin-left: 0px;
+    }
+    
+    
+    
+    /*CONTACT SECTION CSS */
+    
+    
+    
+    .contact {
+    
+        width: 100%;
+
+        margin-left: 30px;
+        
+        margin-top: 30px;
+    
+    }
+    
+    
+    
+    
+    
+    /* LINE DIVIDER CSS */
+    
+    hr {
+    
+        margin-top: 37px;
+        
+        display: flex;
+    
+        width: 97%;
+
+        margin-left: 20px;
+    
+    }
+    
+    
+    
+    /*FOOTER CSS*/
+    
+    footer > p {
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        margin-top: 40px;
+    
+        margin-bottom: 80px;
+        
+        padding-left: 0px;
+    
+        width: 100%;
+
+        margin-left: 8px;
+    
+    }
+    
+    
+    
+    .bottom-hr {
+    
+        margin-top: 16px;
+    
+        margin-bottom: 33px;
+    
+        display: flex;
+    
+        width: 97%;
+
+        margin-left: 20px;
+    
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MOBILE DEVICE RESPONSIVE DESIGN*/
+
+
+
+
+@media (max-width: 500px) {
+
+    .nav-bar {
+    
+        display: flex;
+        
+        flex-direction: column;
+
+        flex-wrap: wrap;
+    
+        align-content: center;
+        
+        justify-content: flex-start;
+
+        margin-top: 20px;
+    
+    }
+    
+    section > .nav {
+        display: none;
+    }
+    
+    .nav-tablet {
+        display: none;
+    }
+
+    .nav-mobile {
+    
+        font-color: #aeaeae;
+    
+        display: flex;
+
+        flex-direction: column;
+    
+        align-items: center;
+
+        justify-content: flex-start;
+
+        margin-right: 0px;
+
+        padding-left: 0px;
+    
+    }
+    
+    .nav-mobile > a {
+        padding: 20.3px 0px;
+        vertical-align: center;
+        font-size: 19px;
+        padding-left: 16px; 
+        border-bottom: 1px solid black;
+        width:100%;
+        text-align: center;
+    }
+    
+    .logo-align {
+
+        width: 100%;
+    
+        display: flex;
+    
+        align-content: flex-start;
+        
+        justify-content: center;
+
+        padding: 0px 0px 0px 15px;
+
+        margin-left: 0px;
+
+        padding-bottom: 19px;
+
+        border-bottom: 1px solid black;
+    }
+    
+    
+    /*HERO CSS*/
+    
+    .hero-content {
+    
+        display: flex;
+    
+        flex-wrap: wrap;
+
+        margin-top: 15px;
+
+        margin-bottom: 30px;
+
+        justify-content: center;
+    
+    }
+    
+    
+    
+    .Hero-Heading {
+    
+        padding-top: 45px;
+    
+        padding-left: 18px;
+
+        margin-left: 0px;
+
+        width: 100%;
+    
+    }
+    
+    
+    
+    h1 {
+    
+        font-size: 72px;
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        align-content: center;
+        
+        line-height: .78;
+    
+    }
+    
+    
+    
+    .Hero-Heading > button {
+    
+        background: white;
+    
+        margin-top: 4px;
+        
+        padding: 6px 44px 6px 42px;
+        
+        border: solid 1px black;
+    
+        font-size: 16px;
+    
+    }
+    
+    
+    
+    .Hero-Image {
+    
+        display: none;
+    
+    }
+    
+    
+    
+    section > hr {
+    
+        margin-top: 80px;
+    
+    }
+    
+    
+    
+    /*FEATURES AND ABOUT SECTION CSS*/
+    
+    .features-about {
+        
+        width = 100%;
+
+        display: flex;
+
+        flex-wrap: wrap;
+        
+        margin-top: 33px;
+
+        margin-bottom: 30px;
+    
+    }
+    
+    .features {
+    
+        width: 100%;
+    
+        line-height: 1.15;
+    
+        padding-right: 20px;
+
+        margin-left: 20px;
+
+        margin-top: 23px;
+    
+    }
+    
+    
+    
+    .about {
+    
+        width: 100%;
+    
+        margin-left: 20px;
+    
+        line-height: 1.15;
+
+        margin-right: 0px;
+
+        padding-right: 14px;
+
+        margin-top: 45px;
+    
+    }
+    
+    
+    
+    /*IMAGE BANNER CSS*/
+    
+    .middle-img-banner {
+    
+        display: flex;
+    
+    }
+    
+    
+    
+    section > .middle-img {
+    
+        width: 100%;
+    
+        margin-top: 22px;
+
+        margin-left: 20px;
+
+        height: 95px;
+
+        width: 460px;
+    
+    }
+    
+    
+    
+    /* SERVICES PRODUCTS VISION CSS */
+    
+    
+    
+    .svp {
+    
+        display: flex;
+    
+        flex-wrap: wrap;
+    
+        margin-top: 28px;
+    
+        margin-left: 20px; 
+
+        padding-bottom: 20px;
+    
+    }
+    
+    
+    
+    .services {
+    
+        width: 100%;
+    
+        line-height: 1.15;
+    
+        padding-right: 40px;
+        
+        margin-right: 0px;
+
+        margin-top: 3px;
+    
+    }
+    
+    
+    
+    .products {
+    
+        width: 100%;
+    
+        line-height: 1.15;
+    
+        padding-right: 40px;
+
+        margin-top: 62px;
+    
+    }
+    
+    
+    
+    .vision {
+    
+        width: 100%;
+    
+        line-height: 1.15;
+    
+        padding-right: 32px;
+    
+        margin-left: 0px;
+
+        margin-top: 62px;
+    }
+    
+    
+    
+    /*CONTACT SECTION CSS */
+    
+    
+    
+    .contact {
+    
+        width: 100%;
+
+        margin-left: 20px;
+        
+        margin-top: 35px;
+    
+    }
+    
+    
+    
+    
+    
+    /* LINE DIVIDER CSS */
+    
+    hr {
+    
+        margin-top: 37px;
+        
+        display: flex;
+    
+        width: 95%;
+
+        margin-left: 20px;
+    
+    }
+    
+    
+    
+    /*FOOTER CSS*/
+    
+    footer > p {
+    
+        display: flex;
+    
+        justify-content: center;
+    
+        margin-top: 38px;
+    
+        margin-bottom: 80px;
+        
+        padding-left: 0px;
+    
+        width: 100%;
+
+        margin-left: 8px;
+    
+    }
+    
+    
+    
+    .bottom-hr {
+    
+        margin-top: 16px;
+    
+        margin-bottom: 33px;
+    
+        display: flex;
+    
+        width: 95%;
+
+        margin-left: 20px;
+    
+    }
+    
+}
